@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WMPatch
+namespace WMPatchLoader
 {
     public class WMManifest
     {
@@ -16,9 +16,5 @@ namespace WMPatch
         public bool userValue { get; set; }
         public string description { get; set; }
         public IList<string> patchFiles { get; set; }
-        public WMManifest()
-        {
-
-        }
     }
 }

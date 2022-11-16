@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.4.33103.184
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMPatch", "WMPatch.csproj", "{440EEEEF-43A0-4031-81E5-0A4EA8F56BD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMPatchLoader", "WMPatchLoader\WMPatchLoader.csproj", "{41429762-136E-43E7-8A56-274E073332C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{440EEEEF-43A0-4031-81E5-0A4EA8F56BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{440EEEEF-43A0-4031-81E5-0A4EA8F56BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{440EEEEF-43A0-4031-81E5-0A4EA8F56BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{440EEEEF-43A0-4031-81E5-0A4EA8F56BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41429762-136E-43E7-8A56-274E073332C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41429762-136E-43E7-8A56-274E073332C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41429762-136E-43E7-8A56-274E073332C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41429762-136E-43E7-8A56-274E073332C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {725F7D4D-AE8A-4E7A-8616-BECF5DF7BD22}
+		SolutionGuid = {2443B943-53AB-45C8-B13D-5D6CBC6A7AF1}
 	EndGlobalSection
 EndGlobal

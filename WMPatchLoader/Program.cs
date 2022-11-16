@@ -6,11 +6,10 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 
-namespace WMPatch
+namespace WMPatchLoader
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -22,13 +21,15 @@ namespace WMPatch
             Console.WriteLine(json);
             Console.WriteLine('\n');
             WMManifest manifest = JsonConvert.DeserializeObject<WMManifest>(json);
-            Console.WriteLine("manifest" + manifest.manifest);
-            Console.WriteLine("name" + manifest.name);
-            Console.WriteLine("author" + manifest.author);
-            Console.WriteLine("version" + manifest.version);
-            Console.WriteLine("cover" + manifest.cover);
-            Console.WriteLine("userValue" + manifest.userValue);
-            Console.WriteLine("description" + manifest.description);
+            Console.WriteLine("manifest: " + manifest.manifest);
+            Console.WriteLine("name: " + manifest.name);
+            Console.WriteLine("author: " + manifest.author);
+            Console.WriteLine("version: " + manifest.version);
+            Console.WriteLine("cover: " + manifest.cover);
+            Console.WriteLine("userValue: " + manifest.userValue);
+            Console.WriteLine("description: " + manifest.description);
+            Console.WriteLine('\n');
+            Console.WriteLine("Patch Files:");
             foreach (string file in manifest.patchFiles)
             {
                 Console.WriteLine(file);

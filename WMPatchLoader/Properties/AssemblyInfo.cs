@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WMPatch")]
+[assembly: AssemblyTitle("WMPatchLoader")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("PCSB")]
-[assembly: AssemblyProduct("WMPatch")]
+[assembly: AssemblyProduct("WMPatchLoader")]
 [assembly: AssemblyCopyright("Copyright © PCSB 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("440eeeef-43a0-4031-81e5-0a4ea8f56bd9")]
+[assembly: Guid("41429762-136e-43e7-8a56-274e073332c4")]
 
 // Version information for an assembly consists of the following four values:
 //
