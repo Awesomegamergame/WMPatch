@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WMPatchLoader")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("PCSB")]
+[assembly: AssemblyCompany("AGG Productions")]
 [assembly: AssemblyProduct("WMPatchLoader")]
-[assembly: AssemblyCopyright("Copyright © PCSB 2022")]
+[assembly: AssemblyCopyright("Copyright © AGG Productions 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
